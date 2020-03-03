@@ -16,6 +16,7 @@ import { MessagesComponent } from './messages/messages.component';
   ],
   imports: [
     BrowserModule,
+    // в приложении нет навигации, зачем импортировать RouterModule
     AppRoutingModule,
     FormsModule
   ],
