@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class MessageService {
-
+  // инициализация в конструкторе
   public messages: string[] = [];
 
   public add(message: string) {
