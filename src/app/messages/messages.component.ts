@@ -9,9 +9,10 @@ import { MessageService } from '../service/message.service';
   styleUrls: ['./messages.component.css']
 })
 export class MessagesComponent implements OnInit {
-
+  // инициализация в конструкторе
   public messages: string[] = []; 
-
+  // почему public ?
+  // зачем DI в этом компоненте ?
   constructor(public messageService: MessageService) { }
 
   public ngOnInit(): void {
