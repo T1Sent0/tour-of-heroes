@@ -10,7 +10,7 @@ import { MessageService } from './message.service';
 	providedIn: 'root',
 })
 export class HeroService {
-
+        // название private переменных начинается с _
 	constructor(private messageService: MessageService) { }
 
 	public getHeroes(): Observable<Hero[]> {
